@@ -356,9 +356,7 @@ class AmpViralizePlayer extends AMP.BaseElement {
    * @private
    */
   executeVPTCmd_(cmd) {
-    this.win.vpt.queue.push(() => {
-      this.win.vpt[cmd](this.zid_);
-    });
+    this.win.vpt[cmd](this.zid_);
   }
 
   /**
