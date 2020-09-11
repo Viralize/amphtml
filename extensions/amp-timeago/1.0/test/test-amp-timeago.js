@@ -19,7 +19,7 @@ import {waitForChildPromise} from '../../../../src/dom';
 import {whenCalled} from '../../../../testing/test-helper.js';
 
 describes.realWin(
-  'amp-timeago',
+  'amp-timeago 1.0',
   {
     amp: {
       runtimeOn: true,
@@ -64,7 +64,7 @@ describes.realWin(
       toggleExperiment(win, 'amp-timeago-bento', false);
     });
 
-    it('should renders display 2 days ago when built', async () => {
+    it('should render display 2 days ago when built', async () => {
       const date = new Date();
       date.setDate(date.getDate() - 2);
       element.setAttribute('datetime', date.toISOString());

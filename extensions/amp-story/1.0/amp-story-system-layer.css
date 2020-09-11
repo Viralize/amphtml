@@ -208,6 +208,10 @@
   position: relative !important;
 }
 
+.i-amphtml-story-no-audio-ui .i-amphtml-story-sound-display {
+  display: none !important;
+}
+
 .i-amphtml-story-mute-audio-control,
 .i-amphtml-story-unmute-audio-control,
 .i-amphtml-paused-display,
@@ -402,5 +406,5 @@
 .i-amphtml-story-desktop-panels.i-amphtml-story-system-layer .i-amphtml-story-system-layer-buttons {
   position: fixed !important;
   top: 0 !important;
-  right: 0 !important;
+  width: 100vw !important;
 }
