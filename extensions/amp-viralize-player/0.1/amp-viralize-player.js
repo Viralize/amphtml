@@ -79,7 +79,7 @@ class AmpViralizePlayer extends AMP.BaseElement {
     }
     this.extraParams_['vip_mode'] = 'no';
     this.extraParams_['location'] = 'inline';
-    this.extraParams_['pub_platform'] = 'amp-viralize-player';
+    this.extraParams_['pub_platform'] = 'amp';
 
     this.win.vpt = this.win.vpt || {};
     this.win.vpt.queue = this.win.vpt.queue || [];
